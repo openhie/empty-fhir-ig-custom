@@ -7,7 +7,7 @@ fsh-generated
 
 # Don't commit this because it's so large #
 ###########################################
-/input-cache/publisher.jar
+/input-cache
 
 # Windows generated files #
 ###########################
