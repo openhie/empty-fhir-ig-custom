@@ -1,0 +1,13 @@
+{
+  "package": "xxxexample.fhir.uv.myig",
+  "version": "0.1.0-test",
+  "fhirVersion": "4.0.1",
+  "jurisdiction": "001",
+  "extensions": [],
+  "profiles": {},
+  "usage": {
+    "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter": [
+      "ImplementationGuide.definition"
+    ]
+  }
+}
