@@ -1,0 +1,12 @@
+{
+    "name": "myorg.fhir.mytemplate",
+    "version": "0.0.1",
+    "type": "fhir.template",
+    "license": "CC0-1.0",
+    "description": "Local template extension for FHIR IG",
+    "author": "http://hl7belgium.org",
+      "base":  "openhie.fhir.template",
+    "dependencies": {
+      "openhie.fhir.template": "current"
+    }
+  }
