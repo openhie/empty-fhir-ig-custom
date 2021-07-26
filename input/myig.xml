@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Start by finding all references to "myig" and updating to appropriate text for your IG, including changing realm -->
 <ImplementationGuide xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../input-cache/schemas/R5/fhir-single.xsd">
-  <id value="xxxexample.fhir.uv.myig"/>
+  <id value="xxexample.fhir.uv.myig"/>
 <!--  <extension url="http://hl7.org/fhir/tools/StructureDefinition/igpublisher-spreadsheet">
     <valueString value="resources-spreadsheet.xml"/>
   </extension>-->
-  <url value="xxxhttp://somewhere.org/fhir/uv/myig/ImplementationGuide/example.fhir.uv.myig"/>
+  <url value="http://xxsomewhere.org/fhir/myig/ImplementationGuide/xxexample.fhir.uv.myig"/>
   <!-- This version will propagate to all artifacts unless the "propagate-version" extension is overridden -->
   <version value="0.1.0-test"/>
-  <name value="xxxYourComputableMyIGNameHere"/>
-  <title value="xxxYour User Friendly Name for MyIG Here"/>
+  <name value="XXYourComputableMyIGNameHere"/>
+  <title value="xxYour User Friendly Name for MyIG Here"/>
   <status value="draft"/>
   <experimental value="false"/>
   <publisher value="xxxYour Work Group"/>
@@ -17,7 +17,7 @@
     <telecom>
       <!-- Or whatever URL and/or email address(es) are appropriate -->
       <system value="url"/>
-      <value value="xxxhttp://hl7.org/Special/committees/[something]"/>
+      <value value="http://xxhl7.org/Special/committees/[something]"/>
     </telecom>
   </contact>
   <description value="xxxA brief description of what this IG is about "/>
@@ -33,7 +33,7 @@
       -->
     </coding>
   </jurisdiction>
-  <packageId value="xxxexample.fhir.uv.myig"/>
+  <packageId value="xxexample.fhir.uv.myig"/>
   <!-- This should be changed to 'not-open-source' or another license if appropriate for non-HL7-published content -->
   <license value="CC0-1.0"/>
   <!-- This is whatever FHIR version(s) the IG artifacts are targeting (not the version of this file, which should always be 'current release') -->
