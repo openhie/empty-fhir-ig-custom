@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ImplementationGuide xmlns="http://hl7.org/fhir">
-  <id value="xxxexample.fhir.uv.myig"/>
+  <id value="xxexample.fhir.uv.myig"/>
   <text>
-    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>xxxYourComputableMyIGNameHere</h2><p>The official URL for this implementation guide is: </p><pre>xxxhttp://somewhere.org/fhir/uv/myig/ImplementationGuide/example.fhir.uv.myig</pre><div><p>xxxA brief description of what this IG is about</p>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>XXYourComputableMyIGNameHere</h2><p>The official URL for this implementation guide is: </p><pre>http://xxsomewhere.org/fhir/myig/ImplementationGuide/xxexample.fhir.uv.myig</pre><div><p>xxxA brief description of what this IG is about</p>
 </div></div>
   </text>
-  <url value="xxxhttp://somewhere.org/fhir/uv/myig/ImplementationGuide/example.fhir.uv.myig"/>
+  <url value="http://xxsomewhere.org/fhir/myig/ImplementationGuide/xxexample.fhir.uv.myig"/>
   <version value="0.1.0-test"/>
-  <name value="xxxYourComputableMyIGNameHere"/>
-  <title value="xxxYour User Friendly Name for MyIG Here"/>
+  <name value="XXYourComputableMyIGNameHere"/>
+  <title value="xxYour User Friendly Name for MyIG Here"/>
   <status value="draft"/>
   <experimental value="false"/>
-  <date value="2021-07-26T17:37:55+00:00"/>
+  <date value="2021-07-26T19:53:01+00:00"/>
   <publisher value="xxxYour Work Group"/>
   <contact>
     <telecom>
       <system value="url"/>
-      <value value="xxxhttp://hl7.org/Special/committees/[something]"/>
+      <value value="http://xxhl7.org/Special/committees/[something]"/>
     </telecom>
   </contact>
   <description value="xxxA brief description of what this IG is about "/>
@@ -27,7 +27,7 @@
       <code value="001"/>
     </coding>
   </jurisdiction>
-  <packageId value="xxxexample.fhir.uv.myig"/>
+  <packageId value="xxexample.fhir.uv.myig"/>
   <license value="CC0-1.0"/>
   <fhirVersion value="4.0.1"/>
   <definition>
@@ -124,7 +124,7 @@
         <valueString value="path-history"/>
       </extension>
       <extension url="value">
-        <valueString value="xxxhttp://somewhere.org/fhir/uv/myig/history.html"/>
+        <valueString value="http://xxsomewhere.org/fhir/myig/history.html"/>
       </extension>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
@@ -214,11 +214,6 @@
       <page>
         <nameUrl value="index.html"/>
         <title value="MyIG Home Page"/>
-        <generation value="html"/>
-      </page>
-      <page>
-        <nameUrl value="downloads.html"/>
-        <title value="Useful Downloads"/>
         <generation value="html"/>
       </page>
       <page>
