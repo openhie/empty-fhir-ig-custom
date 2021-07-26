@@ -1,9 +1,9 @@
 [
   {
-    "id": "xxxexample.fhir.uv.myig",
+    "id": "xxexample.fhir.uv.myig",
     "type": "ImplementationGuide",
-    "url": "xxxhttp://somewhere.org/fhir/uv/myig/ImplementationGuide/example.fhir.uv.myig",
+    "url": "http://xxsomewhere.org/fhir/myig/ImplementationGuide/xxexample.fhir.uv.myig",
     "version": "0.1.0-test",
-    "name": "xxxYourComputableMyIGNameHere"
+    "name": "XXYourComputableMyIGNameHere"
   }
 ]
