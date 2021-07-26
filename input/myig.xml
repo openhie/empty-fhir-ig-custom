@@ -51,11 +51,6 @@
         <title value="MyIG Home Page"/>
         <generation value="html"/>
       </page>
-      <page>
-        <nameUrl value="downloads.html"/>
-        <title value="Useful Downloads"/>
-        <generation value="html"/>
-      </page>
     <!-- change history page -->
       <page>
         <nameUrl value="changes.html"/>
