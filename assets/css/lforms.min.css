@@ -9,11 +9,6 @@
  * http://api.jqueryui.com/category/theming/
  */
 
-
- .lf-sn {
-	 display: none
-	}
-
  .ui-helper-hidden {
 	display: none
 }
@@ -1844,7 +1839,8 @@ textarea.search_field {
 	overflow: visible;
 	padding: 0;
 	position: relative;
-	background-color: #066aa0
+	background-color: #066aa0;
+	color: #fff
 }
 
 .lf-form .lf-float-button {
@@ -1856,6 +1852,17 @@ textarea.search_field {
 	padding: 1px;
 	padding-left: .5em;
 	padding-right: .5em
+}
+
+.lf-form .lf-attachment-button {
+	padding-left: .25em;
+	padding-right: .25em;
+	border-radius: 4px;
+	margin-left: .25em
+}
+
+.lf-form progress {
+	vertical-align: text-bottom
 }
 
 .lf-form .lf-control-button,
@@ -1888,6 +1895,10 @@ textarea.search_field {
 .lf-form .lf-form-title .lf-copyright-button:hover,
 .lf-form .lf-form-title .lf-help-button:hover {
 	color: #b4fda7
+}
+
+.lf-form .download-link {
+	padding-left: .5em
 }
 
 .lf-form-title .popover {
@@ -7265,6 +7276,16 @@ tbody.collapse.in {
 	margin-bottom: 2px
 }
 
+@media (min-width:768px) {
+	.navbar-right .dropdown-menu {
+		right: 0;
+		left: auto
+	}
+	.navbar-right .dropdown-menu-left {
+		right: auto;
+		left: 0
+	}
+}
 
 .btn-group,
 .btn-group-vertical {
