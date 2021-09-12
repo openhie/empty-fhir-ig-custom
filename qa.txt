@@ -3,7 +3,7 @@
 
 err = 1, warn = 0, info = 0
 IG Publisher Version: 1.1.80
-Generated Sun Sep 12 07:46:25 UTC 2021. FHIR version 4.0.1 for xxexample.fhir.uv.myig#0.1.0-test (canonical = http://xxsomewhere.org/fhir/myig)
+Generated Sun Sep 12 07:56:24 UTC 2021. FHIR version 4.0.1 for xxexample.fhir.uv.myig#0.1.0-test (canonical = http://xxsomewhere.org/fhir/myig)
 
  Build Errors : 0 / 0 / 0
  /github/workspace/input/myig : 1 / 0 / 1
