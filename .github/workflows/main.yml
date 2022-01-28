@@ -1,22 +1,21 @@
-# This is a simple workflow that runs the publisher and copies the output to https://<owner>.github.io/<repo>/index.html
-# Based on the instructions from Elliot Silver, available from: https://www.argentixinfo.com/archives/156
+# This workflow reuses the openHIE GitHub action for building IGs
+# Initial idea by from Elliot Silver, available from: https://www.argentixinfo.com/archives/156
 # Change log:
-# 2021-06-18: publish ddefault branches to / , other branches branches/<branch>
+# v0.1.0
+# 2021-06-18: publish default branches to / , other branches branches/<branch>
+# 2021-11-26: reusable workflow
 
-# Make sure your repo has a branch called gh-pages
 
 name: CI
 
 # Controls when the action will run. 
 on:
-  # Triggers the workflow on push or pull request events but only for the main branch
+  # Triggers the workflow on push or pull request events for any main branch
   push:
   pull_request:
 
-  # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
-# A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
   # This workflow contains a single job called "build"
   call_build: 
