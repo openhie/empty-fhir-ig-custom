@@ -19,8 +19,8 @@ date: 2020-02-26
 version: 1.0.0
 
 # Although fhirVersions is 0..* in the ImplementationGuide resource
-# it can be a single item OR and array here (but so far SUSHI only
-# supports 4.0.1 anyway).
+# it can be a single item OR and array here, but the current tooling 
+# only supports one FHIR version per Implementation Guide
 fhirVersion: 4.0.1
 
 # The following two lines correspond to items that used to be in
