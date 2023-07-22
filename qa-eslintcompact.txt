@@ -1,0 +1,11 @@
+﻿/github/workspace/fsh-generated/resources/ImplementationGuide-my-ig.json: line 0, col 0, Error - Conformance resource /github/workspace/fsh-generated/resources/ImplementationGuide-my-ig.json - the canonical URL (http://example.com/fhir/example/ImplementationGuide/my-ig) does not match the URL (http://example.com/fhir/example) (INVALID)
+/github/workspace/fsh-generated/resources/ImplementationGuide-my-ig.json: line 0, col 0, Error - Resource id/url mismatch: my-ig/http://example.com/fhir/example (INVARIANT)
+/github/workspace/fsh-generated/resources/ImplementationGuide-my-ig.json: line 1, col 11427, Error - ImplementationGuide.definition.resource: minimum required = 1, but only found 0 (from http://hl7.org/fhir/StructureDefinition/ImplementationGuide|4.0.1) (STRUCTURE)
+/github/workspace/fsh-generated/resources/ImplementationGuide-my-ig.json: line 0, col 0, Error - URL Mismatch http://example.com/fhir/example/ImplementationGuide/my-ig vs http://example.com/fhir/example (BUSINESSRULE)
+
+ExampleIG : Validation Results
+=========================================
+
+err = 4, warn = 5, info = 0
+IG Publisher Version: 1.3.23
+Generated Sat Jul 22 08:01:39 UTC 2023. FHIR version 4.0.1 for my-ig#1.0.0 (canonical = http://example.com/fhir/example)
